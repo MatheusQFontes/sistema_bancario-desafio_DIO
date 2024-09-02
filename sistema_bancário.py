@@ -39,7 +39,7 @@ while True:
                 saque = float(input('Digite o valor do saque: R$'))
                 if saque > 0 and saque <= 500 and saque <= valor_em_conta and saques_diarios < LIMITE_DE_SAQUES_DIÁRIO:
                     valor_em_conta -= saque
-                    extrato.append(f'Saque: -R${saque:.2f}')
+                    extrato.append(f'Saque:    -R${saque:.2f}')
                     saques_diarios += 1
                     print(f'Saque realizado com sucesso!\nSaldo em conta: R${valor_em_conta:.2f}')
                     break
