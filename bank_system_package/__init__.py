@@ -1,3 +1,3 @@
-from .conta import Conta
+from .functions import Conta
 
 __all__ = ["Conta"]
