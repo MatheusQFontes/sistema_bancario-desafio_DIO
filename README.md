@@ -14,4 +14,4 @@ Este é um sistema bancário simples desenvolvido em Python, utilizando o paradi
 Você pode instalar o pacote diretamente do repositório GitHub. No terminal, execute o comando:
 
 ```bash
-pip install git+https://github.com/MatheusQFontes/sistema_bancario-desafio_DIO/tree/package
+pip install git+https://github.com/MatheusQFontes/sistema_bancario-desafio_DIO/tree/package/bank_system_package
